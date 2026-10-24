@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anthony's Remodeling Contractor LLC | Remodeling &amp; Roofing in Dover, DE | (302) 632-4282</title>
+  <meta name="description" content="Anthony's Remodeling Contractor LLC, Dover, DE: all phases of contracting and home improvement. Roofing, kitchens, tile, flooring, painting, windows, doors and siding. 5.0 on Google. Call (302) 632-4282.">
+  <link rel="icon" type="image/svg+xml" href="images/logo-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&family=Noto+Serif:wght@600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <!-- Lets CSS hide scroll-reveal content only when JS is running to reveal it again -->
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          // "Traditional & established" font row (PROMPT-LIBRARY §2a, the layout default): their only branding, the Facebook
+          // banner, sets "ANTHONY'S REMODELING" in wide white serif capitals on maroon bars, so Noto Serif = wordmark,
+          // Oswald = headlines, Noto Sans = body.
+          fontFamily: {
+            sans: ['"Noto Sans"', 'system-ui', 'sans-serif'],
+            display: ['"Noto Serif"', 'Georgia', 'serif'],
+            headline: ['Oswald', '"Arial Narrow"', 'sans-serif']
+          },
+          // Base hue (PROMPT-LIBRARY §2b, rule a): the maroon of their Facebook banner (sampled #710f10, a red-brown).
+          // 600 = that maroon a touch lighter (white text ~11:1); 500 = a brighter brick red, the accent ON DARK (eyebrows,
+          // stars, arrows); 700 = hover; 900/950 = maroon-black. Handyman Humphries (also Dover) is a cooler crimson
+          // (#84172a, hue ~350) built from its own logo; this one stays on the warmer red-brown of Anthony's banner.
+          colors: {
+            brand: { 500: '#d9534a', 600: '#7a1412', 700: '#5f0e0d', 900: '#2a0c0b', 950: '#150605' }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body id="top" class="bg-white font-sans text-slate-800 antialiased">
+
+  <!-- NAV: top strip + white bar (logo | tagline | links | phone) -->
+  <div class="bg-brand-900 h-2.5"></div>
+
+  <header id="site-header" class="sticky top-0 z-40 bg-white shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-3 xl:gap-6">
+
+      <!-- Logo + tagline. Client tweak: the wordmark steps down on small phones and at lg (1024-1279) so the header fits on
+           one line at every width. -->
+      <a href="#top" class="header-brand flex items-center gap-3 max-[319px]:gap-2 xl:gap-4 shrink-0" aria-label="Anthony's Remodeling Contractor LLC, back to top">
+        <!-- {{LOGO}}: PLACEHOLDER mark (images/logo-mark.svg): no logo file exists. Their Facebook profile picture is a gazebo
+             photo and their cover is a printed banner with the name in white serif capitals on maroon; this mark copies that
+             look. Ask for a real logo. -->
+        <img src="images/logo-mark.svg" alt="" class="w-11 h-11 max-[339px]:w-9 max-[339px]:h-9 max-[299px]:w-8 max-[299px]:h-8 lg:max-xl:w-10 lg:max-xl:h-10 xl:w-12 xl:h-12 shrink-0 object-contain rounded-md">
+        <span class="leading-none">
+          <span class="block font-display font-bold text-[18px] max-[419px]:text-[16px] max-[359px]:text-[14px] max-[319px]:text-[12px] max-[299px]:text-[10px] lg:max-xl:text-[15px] xl:text-[20px] text-slate-800 whitespace-nowrap">Anthony&rsquo;s Remodeling</span>
+          <span class="block text-[9px] max-[339px]:text-[8px] tracking-[0.18em] max-[339px]:tracking-[0.1em] uppercase text-slate-500 mt-1 whitespace-nowrap">Contractor LLC &middot; Dover, DE</span>
+        </span>
+      </a>
+
+      <!-- Desktop links -->
+      <nav class="hidden lg:flex items-center gap-3 xl:gap-5 2xl:gap-6 whitespace-nowrap text-[14px] xl:text-[15px] font-medium text-slate-700" aria-label="Main">
+
+        <div class="relative group">
+          <button class="flex items-center gap-1 py-6 hover:text-brand-600 focus:outline-none">
+            Services
+            <svg class="w-3.5 h-3.5 text-slate-400 transition-transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 8 5 5 5-5"/></svg>
+          </button>
+          <div class="invisible opacity-0 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100 transition absolute left-0 top-full w-56 bg-white border border-slate-200 rounded-b-lg shadow-lg py-2">
+            <a href="#services" class="block px-4 py-2 text-sm hover:bg-slate-50 hover:text-brand-600">Roofing</a>
+            <a href="#services" class="block px-4 py-2 text-sm hover:bg-slate-50 hover:text-brand-600">Kitchen Remodels</a>
+            <a href="#services" class="block px-4 py-2 text-sm hover:bg-slate-50 hover:text-brand-600">Tile &amp; Showers</a>
+            <a href="#services" class="block px-4 py-2 text-sm hover:bg-slate-50 hover:text-brand-600">Flooring</a>
+            <a href="#services" class="block px-4 py-2 text-sm hover:bg-slate-50 hover:text-brand-600">Painting &amp; Trim</a>
+            <a href="#services" class="block px-4 py-2 text-sm hover:bg-slate-50 hover:text-brand-600">Windows, Doors &amp; Siding</a>
+          </div>
+        </div>
+
+        <div class="relative group">
+          <button class="flex items-center gap-1 py-6 hover:text-brand-600 focus:outline-none">
+            About Us
+            <svg class="w-3.5 h-3.5 text-slate-400 transition-transform group-hover:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 8 5 5 5-5"/></svg>
+          </button>
+          <div class="invisible opacity-0 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100 transition absolute left-0 top-full w-56 bg-white border border-slate-200 rounded-b-lg shadow-lg py-2">
+            <a href="#about" class="block px-4 py-2 text-sm hover:bg-slate-50 hover:text-brand-600">About Us</a>
+            <a href="#reviews" class="block px-4 py-2 text-sm hover:bg-slate-50 hover:text-brand-600">Reviews</a>
+          </div>
+        </div>
+
+        <a href="#projects" class="py-6 hover:text-brand-600">Projects</a>
+
+        <a href="#areas" class="py-6 hover:text-brand-600">Service Area</a>
+        <a href="#contact" class="py-6 hover:text-brand-600">Contact</a>
+      </nav>
+
+      <!-- Phone block -->
+      <a href="tel:3026324282" class="hidden md:block text-right shrink-0">
+        <span class="hidden xl:block text-[10px] font-bold tracking-[0.16em] uppercase text-slate-500">Call us today</span>
+        <span class="flex items-center justify-end gap-2 text-brand-600 font-extrabold text-lg xl:text-[26px] leading-tight">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+          (302) 632-4282
+        </span>
+      </a>
+
+      <!-- Free estimate CTA -->
+      <a href="#contact" class="hidden lg:inline-flex shrink-0 items-center whitespace-nowrap bg-brand-600 hover:bg-brand-700 text-white font-bold text-sm uppercase tracking-wide px-4 xl:px-5 py-3 rounded-md shadow-sm transition-colors">
+        Get an Estimate
+      </a>
+
+      <!-- Mobile toggle -->
+      <button id="menu-btn" class="menu-btn lg:hidden p-2 -mr-2 text-slate-700" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path class="bar bar-1" d="M4 7h16"/><path class="bar bar-2" d="M4 12h16"/><path class="bar bar-3" d="M4 17h16"/></svg>
+      </button>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div id="mobile-menu" class="lg:hidden border-t border-slate-200 bg-white">
+      <div class="mobile-menu-inner px-4 py-3 flex flex-col text-[15px] font-medium text-slate-700 divide-y divide-slate-100">
+        <a href="#services" class="py-3">Services</a>
+        <a href="#about" class="py-3">About Us</a>
+        <a href="#projects" class="py-3">Projects</a>
+        <a href="#areas" class="py-3">Service Area</a>
+        <a href="#contact" class="py-3">Contact</a>
+        <a href="tel:3026324282" class="py-4 text-brand-600 font-extrabold text-xl">(302) 632-4282</a>
+        <a href="#contact" class="my-3 text-center bg-brand-600 text-white font-bold uppercase tracking-wide py-3 rounded-md">Get an Estimate</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO: full-width photo under the nav, centered tagline, slide dots -->
+  <section class="cut-hero relative isolate min-h-[70vh] lg:min-h-[78vh] flex items-center overflow-hidden bg-brand-900">
+    <!-- {{HERO_IMAGE}}: REAL, their Facebook photo (posted 5 Jun 2019): a two-storey house with a new standing-seam metal
+         roof and a white-railed front porch. Only 960px wide (the largest Facebook serves), so it is soft on big screens;
+         ask for the original file or a wider job photo. -->
+    <img src="images/job-metal-roof.jpg" alt="A grey two-storey house with a new standing-seam metal roof and a white-railed front porch" class="hero-img absolute inset-0 -z-10 w-full h-full object-cover object-[70%_40%] sm:object-[62%_40%]">
+    <div class="absolute inset-0 -z-10 bg-gradient-to-r from-brand-950/80 via-brand-950/55 to-brand-950/20"></div>
+    <!-- Client tweak: under 640px the hero copy spans the full width and sits on top of the photo; a light even tint keeps it
+         readable on phones only (same as Roofing World). Backport candidate for the template. -->
+    <div class="absolute inset-0 -z-10 bg-brand-950/40 sm:hidden"></div>
+
+    <!-- Left-aligned copy block: eyebrow, big condensed headline, paragraph -->
+    <!-- Client tweak: pb-32 under 640px so the slide dots (bottom-24) never sit on the paragraph on short phones; pb-28 on short (<=720px tall) desktop screens for the same reason; headline one step smaller on landscape phones (<=480px tall). Backport candidates for the template -->
+    <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-32 sm:py-24 lg:[@media(max-height:720px)]:pb-28">
+      <div class="max-w-xl hero-in">
+        <!-- Sources (24 Oct 2026):
+             - Google listing "Anthony's Remodeling" (the user's screenshot), category Contractor, 19 Bellrive Ct, Dover, DE
+               19904 (a residential street, so only "Dover, DE 19904" is shown on the page), +1 302-632-4282, plus code
+               5CCQ+FM Dover, "Opens 8 AM", unclaimed, no website, 5.0 from 2 reviews (Rhonda James, 5 stars, 3 years ago;
+               "Anthony curto", 5 stars, 5 years ago: shares the owner's family surname, so NOT used).
+             - Facebook facebook.com/AnthonysRemodelingContractor ("Anthony's Remodeling Contractor LLC", Contractor, 245
+               followers, Dover DE 19904, same phone): intro "All aspects of Remodeling roofing windows doors plumbing electrical
+               painting flooring tiling siding"; 100% recommend (15 reviews). Cover banner: "All phases of contracting, home
+               improvement, handyman, painting, tiling, windows, doors, siding, plumbing, electrical, flooring, decks, install
+               appliances, garage doors, trim work". Job photos posted 22 May and 5 Jun 2019.
+             - anthonyconstructions.com (Google "web results" in the screenshot) is a DIFFERENT company, Anthony Construction
+               LLC, blue logo, phone 302-216-9979: nothing from it is used.
+             - BBB lists "Anthony's Remodeling Contractors" (not accredited, same phone); the profile itself was behind a bot
+               check, so no rating or start date is used. No licence or insurance claim. -->
+        <p class="text-brand-500 font-bold uppercase tracking-[0.12em] text-xs sm:text-sm">Dover &middot; <span class="whitespace-nowrap">Delaware</span></p>
+        <h1 class="font-headline font-bold uppercase text-white text-5xl max-[439px]:text-[42px] max-[399px]:text-[36px] max-[359px]:text-[32px] max-[319px]:text-[27px] max-[289px]:text-[24px] sm:text-6xl sm:[@media(max-height:480px)]:text-5xl lg:text-7xl leading-[0.95] mt-3">
+          All Phases of Contracting
+        </h1>
+        <p class="text-white/90 text-base sm:text-lg leading-relaxed mt-6 max-w-lg">
+          Roofing, kitchens, tile, flooring, painting, windows, doors and siding: one Dover contractor for the whole house. <strong class="font-bold text-white">Call for an estimate: <span class="whitespace-nowrap">(302) 632-4282.</span></strong>
+        </p>
+      </div>
+    </div>
+
+    <!-- Slide dots (static for now; wire up when more than one hero image exists) -->
+    <div class="absolute bottom-24 sm:bottom-20 left-1/2 -translate-x-1/2 flex gap-2" aria-hidden="true">
+      <span class="w-3.5 h-3.5 rounded-full bg-white"></span>
+      <span class="w-3.5 h-3.5 rounded-full border-2 border-white/80"></span>
+    </div>
+  </section>
+
+  <!-- STATS CARD: overlaps the bottom edge of the hero. Only list stats the client can back up. Sources (24 Oct 2026):
+       - 5.0 Google rating: their Google listing (only 2 reviews, so the count is not a tile).
+       - 100% recommend + 15 reviews: their Facebook page ("100% recommend (15 reviews)").
+       - 14 trades: the trades named on their Facebook cover banner and intro (handyman, painting, tiling, windows, doors,
+         siding, plumbing, electrical, flooring, decks, appliance installs, garage doors, trim work, roofing).
+       NOT claimed: years in business, licence, insurance, warranty, jobs completed, free estimates, brands. Four tiles
+       (LAYOUT-2 §6: tile deleted, lg:grid-cols-4). -->
+  <section class="relative z-10 -mt-14 sm:-mt-16 px-4 sm:px-6 lg:px-8 pb-8">
+    <div class="max-w-6xl mx-auto bg-white rounded-xl shadow-xl ring-1 ring-slate-200/70 p-3 sm:p-4 reveal">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-3">
+
+        <div class="bg-slate-50 rounded-lg px-3 py-5 text-center stat-tile">
+          <!-- star: Google rating -->
+          <svg class="w-6 h-6 mx-auto text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.3-4.1 5.9-.9Z"/></svg>
+          <p class="font-headline font-bold text-4xl max-[379px]:text-[30px] max-[319px]:text-[23px] sm:text-[40px] leading-none text-slate-800 mt-3">5.0</p>
+          <p class="text-[13px] text-slate-600 mt-2">Google Rating</p>
+        </div>
+
+        <div class="bg-slate-50 rounded-lg px-3 py-5 text-center stat-tile">
+          <!-- speech bubble: review count -->
+          <svg class="w-6 h-6 mx-auto text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 12a8 8 0 0 1-11.6 7.1L3.5 20.5l1.4-4.9A8 8 0 1 1 20.5 12Z"/><path d="M8.5 10.5h7M8.5 13.5h4.5"/></svg>
+          <p class="font-headline font-bold text-4xl max-[379px]:text-[30px] max-[319px]:text-[23px] sm:text-[40px] leading-none text-slate-800 mt-3">15</p>
+          <p class="text-[13px] text-slate-600 mt-2">Facebook Reviews</p>
+        </div>
+
+        <div class="bg-slate-50 rounded-lg px-3 py-5 text-center stat-tile">
+          <!-- thumbs up: Facebook recommend -->
+          <svg class="w-6 h-6 mx-auto text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 10v11H3.5V10Z"/><path d="M7 10l4-7.5a2.3 2.3 0 0 1 3 2.6L13.2 9H19a2 2 0 0 1 2 2.3l-1.4 8A2 2 0 0 1 17.6 21H7"/></svg>
+          <p class="font-headline font-bold text-4xl max-[379px]:text-[30px] max-[319px]:text-[23px] sm:text-[40px] leading-none text-slate-800 mt-3">100%</p>
+          <p class="text-[13px] text-slate-600 mt-2">Would Recommend</p>
+        </div>
+
+        <div class="bg-slate-50 rounded-lg px-3 py-5 text-center stat-tile">
+          <!-- toolbox: trades covered -->
+          <svg class="w-6 h-6 mx-auto text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="12" rx="1.5"/><path d="M9 8V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V8M3 13h18M10 13v2h4v-2"/></svg>
+          <p class="font-headline font-bold text-4xl max-[379px]:text-[30px] max-[319px]:text-[23px] sm:text-[40px] leading-none text-slate-800 mt-3">14</p>
+          <p class="text-[13px] text-slate-600 mt-2">Trades Covered</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUSTED BRANDS: logos scroll right to left, edges blurred. Only list brands the client is actually certified with / carries. -->
+  <section class="pb-14 reveal-fade" aria-label="What we do">
+    <div class="relative max-w-6xl mx-auto overflow-hidden">
+      <div class="marquee-track flex w-max items-center">
+        <!-- Set 1 -->
+        <!-- No brands or certifications are published anywhere, so the strip lists the trades on their Facebook cover banner
+             that have no service tile of their own. ASK which brands they install. -->
+        <ul class="flex shrink-0 items-center gap-16 pr-16">
+          <li class="brand-logo">Plumbing</li>
+          <li class="brand-logo">Electrical</li>
+          <li class="brand-logo">Decks</li>
+          <li class="brand-logo">Garage Doors</li>
+          <li class="brand-logo">Appliance Installs</li>
+          <li class="brand-logo">Trim Work</li>
+          <li class="brand-logo">Handyman Repairs</li>
+        </ul>
+        <!-- Set 2: exact duplicate for a seamless loop -->
+        <ul class="flex shrink-0 items-center gap-16 pr-16" aria-hidden="true">
+          <li class="brand-logo">Plumbing</li>
+          <li class="brand-logo">Electrical</li>
+          <li class="brand-logo">Decks</li>
+          <li class="brand-logo">Garage Doors</li>
+          <li class="brand-logo">Appliance Installs</li>
+          <li class="brand-logo">Trim Work</li>
+          <li class="brand-logo">Handyman Repairs</li>
+        </ul>
+      </div>
+
+      <!-- Blurred + faded side edges -->
+      <div class="marquee-edge left-0 bg-gradient-to-r from-white to-transparent" style="-webkit-mask-image:linear-gradient(to right,#000 30%,transparent);mask-image:linear-gradient(to right,#000 30%,transparent)"></div>
+      <div class="marquee-edge right-0 bg-gradient-to-l from-white to-transparent" style="-webkit-mask-image:linear-gradient(to left,#000 30%,transparent);mask-image:linear-gradient(to left,#000 30%,transparent)"></div>
+    </div>
+  </section>
+
+  <!-- SERVICES: copy on the left, round photo collage on the right (4 quarter-circle segments,
+       floating badge + info card). Collage photos: their real job photos plus one stock window shot, see CIRCLE_PHOTOS. -->
+  <section id="services" class="relative overflow-hidden py-16 sm:py-24 bg-gradient-to-br from-red-50 via-white to-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 lg:grid-rows-[auto_1fr_16rem]">
+
+      <!-- Left: copy -->
+      <div class="col-span-full lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:max-w-md xl:max-w-xl mb-8 lg:mb-0 lg:pb-3 reveal">
+        <p class="text-brand-600 font-bold uppercase tracking-[0.14em] text-xs sm:text-sm">Our Services</p>
+        <h2 class="font-headline font-bold uppercase text-slate-800 text-4xl max-[359px]:text-[30px] max-[299px]:text-[26px] sm:text-5xl leading-[1.02] mt-3">Every Part of Your Home</h2>
+        <!-- Copy = their Facebook intro ("All aspects of Remodeling roofing windows doors plumbing electrical painting flooring
+             tiling siding") and cover banner ("All phases of contracting, home improvement, handyman..."). -->
+        <p class="text-slate-600 text-base sm:text-lg leading-relaxed mt-5 max-w-lg">All aspects of remodeling, from the roof down to the floors. Roofing, windows, doors and siding outside; kitchens, tile, flooring, painting, plumbing and electrical inside: one call to Anthony covers&nbsp;it.</p>
+
+      </div>
+
+      <!-- Right: round collage -->
+      <div id="svc-circle" class="relative z-10 mx-auto lg:mx-0 mb-10 lg:mb-5 lg:-mt-16 w-full max-w-[460px] aspect-square col-span-full lg:col-span-2 lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:justify-self-end reveal-fade">
+
+        <!-- The circle: 2x2 grid clipped round; the grid gap makes the white cross -->
+        <div class="absolute inset-0 rounded-full overflow-hidden grid grid-cols-2 grid-rows-2 gap-1.5 bg-white shadow-xl ring-1 ring-slate-200/60">
+          <div class="circle-seg relative overflow-hidden bg-slate-200"><img src="images/job-metal-roof.jpg" alt="" class="absolute inset-0 w-full h-full object-cover"><img src="" alt="" class="absolute inset-0 w-full h-full object-cover opacity-0"></div>
+          <!-- All 4 quarters are photos. Never use a solid/patterned brand-colour quarter here (client rule, 2026-09-26). -->
+          <div class="circle-seg relative overflow-hidden bg-slate-200"><img src="images/job-kitchen.jpg" alt="" class="absolute inset-0 w-full h-full object-cover"><img src="" alt="" class="absolute inset-0 w-full h-full object-cover opacity-0"></div>
+
+          <div class="circle-seg relative overflow-hidden bg-slate-200"><img src="images/job-tile-shower.jpg" alt="" class="absolute inset-0 w-full h-full object-cover"><img src="" alt="" class="absolute inset-0 w-full h-full object-cover opacity-0"></div>
+          <div class="circle-seg relative overflow-hidden bg-slate-200"><img src="images/job-sunroom-floor.jpg" alt="" class="absolute inset-0 w-full h-full object-cover"><img src="" alt="" class="absolute inset-0 w-full h-full object-cover opacity-0"></div>
+        </div>
+
+        <!-- Floating round badge, top-left: the placeholder serif "A" mark (maroon square on a white badge) -->
+        <span class="absolute -top-2 left-[6%] grid place-items-center w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-white ring-4 ring-white shadow-lg overflow-hidden" aria-hidden="true"><img src="images/logo-mark.svg" alt="" class="w-10 h-10 sm:w-11 sm:h-11 object-contain"></span>
+        <!-- Floating round badge, bottom-right: a hammer -->
+        <span class="absolute bottom-[8%] -right-1 sm:right-0 grid place-items-center w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-brand-600 text-white ring-4 ring-white shadow-lg" aria-hidden="true">
+          <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 12-8.5 8.5a2.1 2.1 0 0 1-3-3L12 9"/><path d="M17.6 15 22 10.6"/><path d="m20.9 11.7-1.3-1.3a2.4 2.4 0 0 1-.7-1.7V7.4l-2.3-2.3A5.5 5.5 0 0 0 12.7 3.5H9l.9.8a6 6 0 0 1 2.1 4.5v1.5l2 2h1.3c.6 0 1.2.3 1.7.7l1.3 1.3"/></svg>
+        </span>
+
+        <!-- Floating card, left edge: their Google rating (5.0 from 2 reviews, 24 Oct 2026). -->
+        <div class="absolute left-0 sm:-left-10 top-[58%] bg-white rounded-lg shadow-xl ring-1 ring-slate-200/70 px-4 py-3">
+          <p class="text-[10px] font-bold uppercase tracking-wider text-slate-500">Google Rating</p>
+          <div class="flex items-center gap-2 mt-0.5">
+            <span class="font-headline font-bold text-2xl leading-none text-slate-800">5.0</span>
+            <span class="text-brand-600 text-sm tracking-[0.1em] leading-none" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          </div>
+        </div>
+      </div>
+      <!-- SERVICE TILES: 6 photo tiles. On desktop tiles 1-2 rise to fill the space beside/under the text and circle
+           (grid rows adapt to the paragraph length); tiles 2 and 3 have a curved edge that follows the circle.
+           Services: every one is named in their Facebook intro and/or cover banner (roofing, tiling, flooring, painting, trim
+           work, windows, doors, siding); kitchen remodels = their kitchen photo + Sara Brandon's Facebook review (kitchen
+           opened up to a half wall with a bar). Photos: tiles 1-5 are REAL (their Facebook posts, May-Jun 2019); tile 6 is
+           STOCK (Unsplash, a wood window in grey siding), NOT their work. ASK for a real window / door / siding photo. -->
+
+      <a href="#contact" class="svc-tile group relative block min-h-56 sm:min-h-64 lg:col-start-1 lg:row-start-2 lg:row-span-2 overflow-hidden rounded-md bg-brand-900 reveal-fade">
+        <img src="images/job-metal-roof.jpg" alt="A new standing-seam metal roof over a two-storey house and its front porch" loading="lazy" class="absolute inset-0 w-full h-full object-cover object-[55%_30%] transition duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-950/85 via-brand-950/35 to-brand-950/10"></div>
+        <div class="absolute inset-x-0 bottom-0 p-5 flex items-end justify-between gap-3">
+          <h3 class="font-headline font-medium uppercase text-white text-2xl sm:text-[28px] leading-[1.05]">Roofing</h3>
+          <svg class="w-6 h-6 shrink-0 text-brand-500 transition group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <a href="#contact" class="svc-tile group relative block min-h-56 sm:min-h-64 lg:col-start-2 lg:row-start-2 lg:row-span-2 cut-svc overflow-hidden rounded-md bg-brand-900 reveal-fade">
+        <img src="images/job-kitchen.jpg" alt="A kitchen with cherry cabinets, stainless appliances, a stone backsplash and a granite island" loading="lazy" class="absolute inset-0 w-full h-full object-cover object-[45%_50%] transition duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-950/85 via-brand-950/35 to-brand-950/10"></div>
+        <div class="absolute inset-x-0 bottom-0 p-5 flex items-end justify-between gap-3">
+          <h3 class="font-headline font-medium uppercase text-white text-2xl sm:text-[28px] leading-[1.05]">Kitchen Remodels</h3>
+          <svg class="w-6 h-6 shrink-0 text-brand-500 transition group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <a href="#contact" class="svc-tile group relative block min-h-56 sm:min-h-64 lg:col-start-3 lg:row-start-2 lg:row-span-2 cut-svc overflow-hidden rounded-md bg-brand-900 reveal-fade">
+        <img src="images/job-tile-shower.jpg" alt="A tiled walk-in shower with a mosaic accent band, a matching niche and a sliding glass door" loading="lazy" class="absolute inset-0 w-full h-full object-cover object-[50%_40%] transition duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-950/85 via-brand-950/35 to-brand-950/10"></div>
+        <div class="absolute inset-x-0 bottom-0 p-5 flex items-end justify-between gap-3">
+          <h3 class="font-headline font-medium uppercase text-white text-2xl sm:text-[28px] leading-[1.05]">Tile &amp; Showers</h3>
+          <svg class="w-6 h-6 shrink-0 text-brand-500 transition group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <a href="#contact" class="svc-tile group relative block min-h-56 sm:min-h-64 lg:col-start-1 lg:row-start-4 overflow-hidden rounded-md bg-brand-900 reveal-fade">
+        <img src="images/job-sunroom-floor.jpg" alt="New grey wood-look plank flooring across a sunroom with panelled walls" loading="lazy" class="absolute inset-0 w-full h-full object-cover object-[50%_60%] transition duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-950/85 via-brand-950/35 to-brand-950/10"></div>
+        <div class="absolute inset-x-0 bottom-0 p-5 flex items-end justify-between gap-3">
+          <h3 class="font-headline font-medium uppercase text-white text-2xl sm:text-[28px] leading-[1.05]">Flooring</h3>
+          <svg class="w-6 h-6 shrink-0 text-brand-500 transition group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <a href="#contact" class="svc-tile group relative block min-h-56 sm:min-h-64 lg:col-start-2 lg:row-start-4 overflow-hidden rounded-md bg-brand-900 reveal-fade">
+        <img src="images/job-basement-paint.jpg" alt="A freshly painted finished basement with a drop ceiling, recessed lights and a wall-mounted TV" loading="lazy" class="absolute inset-0 w-full h-full object-cover object-[50%_40%] transition duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-950/85 via-brand-950/35 to-brand-950/10"></div>
+        <div class="absolute inset-x-0 bottom-0 p-5 flex items-end justify-between gap-3">
+          <h3 class="font-headline font-medium uppercase text-white text-2xl sm:text-[28px] leading-[1.05]">Painting &amp; Trim</h3>
+          <svg class="w-6 h-6 shrink-0 text-brand-500 transition group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+        </div>
+      </a>
+
+      <a href="#contact" class="svc-tile group relative block min-h-56 sm:min-h-64 lg:col-start-3 lg:row-start-4 overflow-hidden rounded-md bg-brand-900 reveal-fade">
+        <img src="images/tile-window.jpg" alt="A wood-framed window set into a light grey sided wall" loading="lazy" class="absolute inset-0 w-full h-full object-cover object-[50%_50%] transition duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-950/85 via-brand-950/35 to-brand-950/10"></div>
+        <div class="absolute inset-x-0 bottom-0 p-5 flex items-end justify-between gap-3">
+          <h3 class="font-headline font-medium uppercase text-white text-2xl sm:text-[28px] leading-[1.05]">Windows, Doors &amp; Siding</h3>
+          <svg class="w-6 h-6 shrink-0 text-brand-500 transition group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ABOUT US: big quote + statement + who said it on the left, wide team photo on the right.
+       Use a real quote from the owner/manager. -->
+  <section id="about" class="relative py-16 sm:py-24 bg-slate-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid gap-10 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-14 items-center">
+
+      <!-- Left: quote -->
+      <div class="reveal">
+        <!-- Opening quote mark -->
+        <svg class="w-14 h-14 sm:w-16 sm:h-16 text-brand-600 rotate-180" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9.983 3v7.391c0 5.704-3.731 9.570-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4V3h9.983Zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983V3H24Z"/></svg>
+
+        <!-- REAL words: the page's own reply under Sara Brandon's Facebook recommendation (13 Apr 2019): "It was a pleasure
+             doing work for your family. Wishing you many years of happiness and great memories in your new home."
+             Credited to the company (the reply is posted as the page). Client tweak kept: one size step down at
+             1024-1279px (lg:max-xl:text-[44px]). ASK Anthony for a quote of his own. -->
+        <h2 class="font-headline font-medium uppercase text-slate-700 text-4xl max-[359px]:text-[30px] max-[299px]:text-[26px] sm:text-5xl lg:max-xl:text-[44px] leading-[1.05] mt-8">It was a pleasure doing work for your family.</h2>
+
+        <!-- Who said it -->
+        <div class="flex items-center gap-4 mt-10">
+          <!-- Closing quote mark -->
+          <svg class="w-11 h-11 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9.983 3v7.391c0 5.704-3.731 9.570-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4V3h9.983Zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983V3H24Z"/></svg>
+          <div>
+            <p class="font-bold text-lg text-slate-800 leading-tight">Anthony&rsquo;s Remodeling</p>
+            <p class="text-sm text-slate-600">Contractor LLC &middot; Dover, Delaware</p>
+          </div>
+        </div>
+
+        <hr class="mt-8 border-slate-300">
+
+        <div class="mt-8 flex flex-wrap items-center gap-x-8 gap-y-3">
+          <a href="#projects" class="btn-arrow inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white font-headline font-medium uppercase tracking-wide text-base px-6 py-3 rounded-sm transition-colors">
+            About Us
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+          </a>
+          <a href="tel:3026324282" class="inline-flex items-center gap-2 font-headline font-medium uppercase tracking-wide text-base text-slate-800 hover:text-brand-600 transition-colors">
+            (302) 632-4282
+            <svg class="w-4 h-4 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: REAL job photo, their Facebook post of 22 May 2019: a finished sunroom with panelled walls and new plank
+           flooring (a man is walking past outside the door). No team or owner photo exists; ask for one. 960px wide. -->
+      <div class="drop-shadow-xl photo-hover reveal" style="--reveal-delay:120ms"><img src="images/about-sunroom.jpg" alt="A finished sunroom with dark grey panelled walls, white trim, wide windows and new plank flooring" loading="lazy" class="cut-tl w-full aspect-[4/3] lg:aspect-[16/11] object-cover object-[50%_55%]"></div>
+
+
+    </div>
+    <!-- Roof peak: the next section's white rises into this one -->
+    <div class="roof-peak" aria-hidden="true"></div>
+  </section>
+
+  <!-- OUR PROJECTS: alternating rows (text + bullets beside a photo).
+       Three REAL jobs from their Facebook page (photos posted 22 May and 5 Jun 2019). The posts have no captions, so each
+       row describes only what the photo shows; towns are not stated, so none are shown. Ask for captions, towns, more
+       jobs (windows, siding, decks) and permission to show them. -->
+  <section id="projects" class="py-16 sm:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="text-center max-w-2xl mx-auto reveal">
+        <p class="text-brand-600 font-bold uppercase tracking-[0.14em] text-xs sm:text-sm">Recent Work</p>
+        <h2 class="font-headline font-bold uppercase text-slate-800 text-4xl max-[359px]:text-[30px] max-[299px]:text-[26px] sm:text-5xl leading-[1.02] mt-3">Roof to Floor</h2>
+        <p class="text-slate-600 text-base sm:text-lg leading-relaxed mt-5">Three jobs from our Facebook page: a metal roof, a kitchen and a sunroom. Same contractor, very different&nbsp;trades.</p>
+      </div>
+
+      <!-- Alternating rows: text left / image right, then image left / text right, and so on.
+           To add a project, copy a row; odd rows have the text first (image on the right), even rows have the image first. -->
+      <div class="mt-12 sm:mt-14 space-y-10 sm:space-y-12">
+
+        <!-- Project 1: text left, image right. REAL: Facebook photo (5 Jun 2019), the metal-roofed house. -->
+        <article class="grid gap-8 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-14 items-center reveal">
+          <div>
+            <p class="flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.14em] text-brand-600">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+              Residential &middot; Roofing
+            </p>
+            <h3 class="font-headline font-semibold text-3xl sm:text-4xl leading-tight text-slate-800 mt-3">A Standing-Seam Metal Roof</h3>
+            <p class="text-slate-600 text-base leading-relaxed mt-4">Grey standing-seam metal panels over the whole house: the main roof, the side wing and the long front porch, finished with white fascia and a row of snow guards along each&nbsp;eave.</p>
+            <ul class="mt-5 space-y-2.5 text-sm text-slate-700">
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Standing-seam metal panels</li>
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Main roof, wing and porch roof</li>
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Snow guards along the eaves</li>
+            </ul>
+          </div>
+          <div class="drop-shadow-xl photo-hover"><img src="images/job-metal-roof.jpg" alt="A two-storey house with a grey standing-seam metal roof over the main roof, side wing and front porch" loading="lazy" class="cut-tl w-full aspect-[4/3] lg:aspect-[7/5] object-cover object-[50%_45%]"></div>
+        </article>
+
+        <!-- Project 2: image left, text right. REAL: Facebook photo (5 Jun 2019), the kitchen. -->
+        <article class="grid gap-8 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:gap-14 items-center reveal">
+          <div class="drop-shadow-xl photo-hover"><img src="images/job-kitchen.jpg" alt="A kitchen with cherry raised-panel cabinets, a stone mosaic backsplash, stainless appliances and a granite island" loading="lazy" class="cut-tr w-full aspect-[4/3] lg:aspect-[7/5] object-cover object-[50%_50%]"></div>
+          <div>
+            <p class="flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.14em] text-brand-600">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+              Residential &middot; Kitchen
+            </p>
+            <h3 class="font-headline font-semibold text-3xl sm:text-4xl leading-tight text-slate-800 mt-3">Cherry Cabinets &amp; a Granite Island</h3>
+            <p class="text-slate-600 text-base leading-relaxed mt-4">Raised-panel cherry cabinets run to the ceiling around a stainless range and microwave, with granite counters, a stone mosaic backsplash, recessed lights and a granite-topped&nbsp;island.</p>
+            <ul class="mt-5 space-y-2.5 text-sm text-slate-700">
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Cabinets, counters and island</li>
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Stone mosaic backsplash</li>
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Recessed ceiling lights</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Project 3: text left, image right. REAL: Facebook photo (22 May 2019), the sunroom floor. -->
+        <article class="grid gap-8 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] lg:gap-14 items-center reveal">
+          <div>
+            <p class="flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.14em] text-brand-600">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+              Residential &middot; Flooring &amp; Trim
+            </p>
+            <h3 class="font-headline font-semibold text-3xl sm:text-4xl leading-tight text-slate-800 mt-3">A Sunroom Floor &amp; Wall Panels</h3>
+            <p class="text-slate-600 text-base leading-relaxed mt-4">A sunroom finished with grey wood-look plank flooring, dark grey walls trimmed with white picture-frame panels under every window, and new white&nbsp;baseboards.</p>
+            <ul class="mt-5 space-y-2.5 text-sm text-slate-700">
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Wood-look plank flooring</li>
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Picture-frame wall panels</li>
+              <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 shrink-0 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 4.5 4.5L19 7"/></svg> Paint and white baseboards</li>
+            </ul>
+          </div>
+          <div class="drop-shadow-xl photo-hover"><img src="images/job-sunroom-floor.jpg" alt="A sunroom with new grey plank flooring and dark grey walls with white picture-frame panels under the windows" loading="lazy" class="cut-tl w-full aspect-[4/3] lg:aspect-[7/5] object-cover object-[50%_55%]"></div>
+        </article>
+
+      </div>
+
+      <div class="mt-10 text-center">
+        <a href="#contact" class="inline-flex items-center border-2 border-brand-600 text-brand-600 hover:bg-brand-600 hover:text-white font-bold text-sm uppercase tracking-wide px-7 py-3 rounded-md transition-colors">Get an Estimate</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS: heading + horizontally scrolling review cards that hang over a dark band at the bottom.
+       Use real reviews only (copy each <article>). Cards keep their natural height, so short and long reviews both work. -->
+  <section id="reviews" class="relative bg-slate-100 pt-16 sm:pt-20 pb-24 border-t border-slate-200">
+    <!-- Dark band the cards overlap (the footer picks up from here) -->
+    <div class="absolute inset-x-0 bottom-0 h-48 bg-brand-900" aria-hidden="true"></div>
+
+    <div class="relative">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-end justify-between gap-6 reveal">
+        <h2 class="font-headline font-medium uppercase text-slate-800 text-3xl max-[359px]:text-[26px] sm:text-4xl lg:text-[2.6rem] leading-[1.1] max-w-3xl">What Our Customers Say</h2>
+        <!-- Arrows -->
+        <div class="hidden sm:flex shrink-0 gap-2">
+          <button type="button" id="reviews-prev" class="grid place-items-center w-11 h-11 rounded-full bg-white text-slate-700 ring-1 ring-slate-300 hover:bg-brand-600 hover:text-white hover:ring-brand-600 transition-colors" aria-label="Previous reviews">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg>
+          </button>
+          <button type="button" id="reviews-next" class="grid place-items-center w-11 h-11 rounded-full bg-white text-slate-700 ring-1 ring-slate-300 hover:bg-brand-600 hover:text-white hover:ring-brand-600 transition-colors" aria-label="Next reviews">
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Track: starts aligned with the page container and runs off the right edge -->
+      <div id="reviews-track" class="reviews-track mt-10 flex items-start gap-5 overflow-x-auto snap-x snap-mandatory pb-2 reveal-fade" style="--reveal-delay:100ms">
+
+        <!-- REAL reviews, word for word (24 Oct 2026). Get permission before launch.
+             1) Sara Brandon, Facebook recommendation, 13 Apr 2019 (full text read on the page). The middle sentences are left
+                out where the "…" is; the full text names the jobs (kitchen wall opened to a half wall with a bar/countertop,
+                living room, dining room and kitchen painted, a chandelier installed).
+             2) Rhonda James, Google, 5 stars, "3 years ago" (Local Guide), the whole review.
+             The only other Google review (5 stars) is by "Anthony curto", the owner's family name, so it is NOT shown. The
+             other 14 Facebook recommendations were not readable logged out. Last card invites more. -->
+        <article class="review-card snap-start shrink-0 w-[85%] sm:w-[46%] lg:w-[31%] bg-white rounded-sm shadow-md p-7 sm:p-8">
+          <!-- Facebook recommendations carry no star rating, so this card says "Recommends" instead of showing stars -->
+          <p class="text-brand-500 text-2xl leading-none font-headline font-medium uppercase tracking-[0.06em]">Recommends</p>
+          <p class="text-slate-700 text-[15px] leading-relaxed mt-5">Anthony was very responsive from the first point of contact, throughout the process until the completion of the job. &hellip; He is a bit of a perfectionist which is a great thing in my opinion because we knew the job would be done right. I would highly recommend him for any of your home improvement&nbsp;needs!</p>
+          <div class="flex items-center gap-4 mt-7">
+            <span class="grid place-items-center shrink-0 w-12 h-12 rounded-full bg-white ring-1 ring-slate-200" aria-hidden="true">
+              <svg class="w-6 h-6" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#1877F2"/><path fill="#fff" d="M13.4 24v-8.5h2.8l.4-3.3h-3.2v-2.1c0-1 .3-1.6 1.7-1.6h1.7V5.6a23 23 0 0 0-2.5-.1c-2.5 0-4.2 1.5-4.2 4.3v2.4H7.3v3.3h2.8V24Z"/></svg>
+            </span>
+            <div>
+              <p class="font-bold text-slate-800 leading-tight">Sara B.</p>
+              <p class="text-sm text-slate-500">Kitchen, Painting &amp; Lighting</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card snap-start shrink-0 w-[85%] sm:w-[46%] lg:w-[31%] bg-white rounded-sm shadow-md p-7 sm:p-8">
+          <p class="text-brand-500 text-2xl tracking-[0.2em] leading-none" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+          <p class="text-slate-700 text-[15px] leading-relaxed mt-5">Just made a phone call to him and he is so knowledgeable. Anyone would be happy to use his&nbsp;service.</p>
+          <div class="flex items-center gap-4 mt-7">
+            <span class="grid place-items-center shrink-0 w-12 h-12 rounded-full bg-white ring-1 ring-slate-200" aria-hidden="true">
+              <svg class="w-6 h-6" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.5 5.4 2.6 13.2l7.9 6.1C12.4 13.6 17.7 9.5 24 9.5Z"/><path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.3 5.5-4.8 7.2l7.5 5.8c4.4-4.1 7.1-10.1 7.1-17.5Z"/><path fill="#FBBC05" d="M10.5 28.7A14.5 14.5 0 0 1 9.5 24c0-1.6.3-3.2.8-4.7l-7.9-6.1A24 24 0 0 0 0 24c0 3.9.9 7.5 2.6 10.8l7.9-6.1Z"/><path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.5-5.8c-2.1 1.4-4.9 2.3-8.4 2.3-6.3 0-11.6-4.1-13.5-9.8l-7.9 6.1C6.5 42.6 14.6 48 24 48Z"/></svg>
+            </span>
+            <div>
+              <p class="font-bold text-slate-800 leading-tight">Rhonda J.</p>
+              <p class="text-sm text-slate-500">Google Review</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card snap-start shrink-0 w-[85%] sm:w-[46%] lg:w-[31%] bg-white rounded-sm shadow-md p-7 sm:p-8">
+          <p class="text-slate-700 text-[15px] leading-relaxed">100% recommended on Facebook and 5.0 on Google. Had work done by Anthony? A few words on Google help your Dover neighbors find us&nbsp;too.</p>
+          <div class="flex items-center gap-4 mt-7">
+            <span class="grid place-items-center shrink-0 w-12 h-12 rounded-full bg-white ring-1 ring-slate-200" aria-hidden="true">
+              <svg class="w-6 h-6" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.5 5.4 2.6 13.2l7.9 6.1C12.4 13.6 17.7 9.5 24 9.5Z"/><path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.3 5.5-4.8 7.2l7.5 5.8c4.4-4.1 7.1-10.1 7.1-17.5Z"/><path fill="#FBBC05" d="M10.5 28.7A14.5 14.5 0 0 1 9.5 24c0-1.6.3-3.2.8-4.7l-7.9-6.1A24 24 0 0 0 0 24c0 3.9.9 7.5 2.6 10.8l7.9-6.1Z"/><path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.5-5.8c-2.1 1.4-4.9 2.3-8.4 2.3-6.3 0-11.6-4.1-13.5-9.8l-7.9 6.1C6.5 42.6 14.6 48 24 48Z"/></svg>
+            </span>
+            <div>
+              <!-- Their Google listing is unclaimed and its place ID was not captured, so this is a Maps search for the name and
+                   address. Swap for the "Ask for reviews" link once they claim their Google Business Profile. -->
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=Anthony%27s+Remodeling+19+Bellrive+Ct+Dover+DE+19904" target="_blank" rel="noopener" class="font-bold text-brand-600 hover:text-brand-700 leading-tight">Review Us on Google &rarr;</a>
+              <p class="text-sm text-slate-500">Anthony&rsquo;s Remodeling</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE AREAS: dark panel, copy on the left, dotted map with city dots on the right.
+       Map = a dotted map of central Kent County, Delaware with Delaware Bay to the east (DE outline from
+       glynnbird/usstatesgeojson; land west of the bay shore, Maryland included as land), box lon 75.80-75.25 W,
+       lat 39.30-39.036 N, lon scaled by cos 39.17N: x = (lon + 75.80) * 1818.2, y = (39.30 - lat) * 2345.6 in the 1000x620
+       box; dot left = x/10 %, top = y/6.2 %.
+       Dot: Dover (39.1582 N 75.5244 W, the city centre) = the only town on their Google listing and Facebook page. Their
+       own address (Bellrive Ct, west Dover) is residential, so the dot marks the city, not the house. No other towns are
+       named anywhere, so none are claimed. ASK which towns they cover. -->
+
+  <section id="areas" class="bg-slate-100 py-14 sm:py-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="relative overflow-hidden rounded-sm bg-brand-900 shadow-xl reveal">
+        <div class="grid gap-10 lg:grid-cols-2 lg:gap-6 items-center p-7 sm:p-12 lg:p-16">
+
+          <!-- Left: copy -->
+          <div class="relative z-10">
+            <h2 class="font-headline font-medium uppercase text-white text-4xl max-[359px]:text-[30px] max-[299px]:text-[26px] sm:text-5xl lg:text-6xl lg:max-xl:text-[52px] leading-[1.02]">Based in Dover</h2>
+            <p class="text-[#f4aaa3] font-semibold text-lg sm:text-xl leading-snug mt-6 max-w-lg">A local Dover, Delaware contractor for roofs, kitchens, floors and everything between.</p>
+            <p class="text-white/75 text-sm sm:text-base leading-relaxed mt-5 max-w-lg">Anthony&rsquo;s Remodeling works out of Dover. Not sure we cover your town? Call <span class="whitespace-nowrap">(302) 632-4282</span> and&nbsp;ask.</p>
+            <a href="#contact" class="mt-8 inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white font-headline font-medium uppercase tracking-wide text-base px-6 py-3 rounded-sm transition-colors">
+              Get an Estimate
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <!-- Right: map. Dots are positioned in % of this box, so they stay put at every size. -->
+          <div class="relative w-full aspect-[1000/620] lg:scale-[1.12] lg:origin-center">
+            <svg class="absolute inset-0 w-full h-full" viewBox="0 0 1000 620" aria-hidden="true">
+              <defs>
+                <pattern id="areaDots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="2.3" fill="#6b3330"/></pattern>
+                <clipPath id="areaClip">
+                  <polygon points="-30,-30 536,-139 556,-128 560,-122 556,-109 558,-107 561,-103 563,-100 582,-88 582,-86 601,-72 617,-66 656,-31 660,-22 663,6 663,8 676,35 712,83 722,106 719,127 716,132 717,179 719,181 733,197 740,224 737,262 730,266 727,266 712,294 708,337 725,495 724,547 727,550 735,565 734,568 749,584 764,589 826,645 835,657 876,731 882,749 -30,780"/>
+                </clipPath>
+              </defs>
+              <g clip-path="url(#areaClip)"><rect width="1000" height="620" fill="url(#areaDots)"/></g>
+              <text x="30" y="40" fill="#ffffff" fill-opacity=".45" font-family="Oswald, sans-serif" font-weight="600" font-size="20" letter-spacing="3">KENT COUNTY, DE</text>
+              <text x="870" y="330" text-anchor="middle" fill="#ffffff" fill-opacity=".3" font-family="Oswald, sans-serif" font-weight="500" font-size="16" letter-spacing="4" transform="rotate(90 870 330)">DELAWARE BAY</text>
+            </svg>
+
+            <!-- City dots: the city name shows on hover / keyboard focus. -->
+            <a href="#contact" class="area-dot group" style="left:50.1%;top:53.6%" aria-label="Dover, DE"><span class="area-tip">Dover, DE</span></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / FREE ESTIMATE: info cards on the left, estimate form on the right (structure from layout 1).
+       The form has no backend yet: point <form action> at the client's form handler (or Formspree etc.) and remove the demo script. -->
+  <section id="contact" class="bg-white py-16 sm:py-24">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-14 items-start">
+
+      <!-- Left: info -->
+      <div class="lg:col-span-5 reveal">
+        <p class="text-brand-600 font-bold uppercase tracking-[0.14em] text-xs sm:text-sm">Get in Touch</p>
+        <h2 class="font-headline font-bold uppercase text-slate-800 text-4xl max-[359px]:text-[30px] max-[299px]:text-[26px] sm:text-5xl leading-[1.02] mt-3">Schedule an Estimate</h2>
+        <p class="text-slate-600 text-base sm:text-lg leading-relaxed mt-5">Send us a few details or call <span class="whitespace-nowrap">(302) 632-4282</span>. A roof, a kitchen or a door that sticks, tell us what you need and we&rsquo;ll set up a time to take a&nbsp;look.</p>
+
+        <!-- Phone and opening time: their Google listing. Their street address (Google) is a residential street, so only the
+             city and zip are shown (as on Facebook). Google shows "Opens 8 AM" (closing time and days not captured): CONFIRM
+             hours. No email is published anywhere, so the last card links to their Facebook page instead. -->
+        <div class="mt-8 space-y-3">
+          <div class="info-card flex items-center gap-4 rounded-md bg-slate-50 ring-1 ring-slate-200 p-4">
+            <span class="grid place-items-center shrink-0 w-12 h-12 rounded-full bg-brand-600/10 text-brand-600">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            </span>
+            <div>
+              <p class="text-xs font-bold uppercase tracking-wider text-slate-500">Based In</p>
+              <p class="text-sm sm:text-base font-bold text-slate-800">Dover, DE 19904<br><span class="font-semibold text-slate-600">Kent County, Delaware</span></p>
+            </div>
+          </div>
+
+          <div class="info-card flex items-center gap-4 rounded-md bg-slate-50 ring-1 ring-slate-200 p-4">
+            <span class="grid place-items-center shrink-0 w-12 h-12 rounded-full bg-brand-600/10 text-brand-600">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+            </span>
+            <div>
+              <p class="text-xs font-bold uppercase tracking-wider text-slate-500">Call Us</p>
+              <a href="tel:3026324282" class="inline-block py-2 -my-2 text-base font-extrabold text-slate-800 hover:text-brand-600 transition-colors">(302) 632-4282</a>
+            </div>
+          </div>
+
+          <div class="info-card flex items-center gap-4 rounded-md bg-slate-50 ring-1 ring-slate-200 p-4">
+            <span class="grid place-items-center shrink-0 w-12 h-12 rounded-full bg-brand-600/10 text-brand-600">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>
+            </span>
+            <div class="min-w-0">
+              <p class="text-xs font-bold uppercase tracking-wider text-slate-500">Hours</p>
+              <p class="text-sm sm:text-base font-bold text-slate-800">Opens at 8 AM</p>
+            </div>
+          </div>
+
+          <div class="info-card flex items-center gap-4 rounded-md bg-slate-50 ring-1 ring-slate-200 p-4">
+            <span class="grid place-items-center shrink-0 w-12 h-12 rounded-full bg-brand-600/10 text-brand-600">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3Z"/></svg>
+            </span>
+            <div class="min-w-0">
+              <p class="text-xs font-bold uppercase tracking-wider text-slate-500">Message Us</p>
+              <a href="https://www.facebook.com/AnthonysRemodelingContractor/" target="_blank" rel="noopener" class="info-fb block truncate text-base font-extrabold text-slate-800 hover:text-brand-600 transition-colors">Anthony&rsquo;s on Facebook</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: form card -->
+      <div class="lg:col-span-7 reveal" style="--reveal-delay:100ms">
+        <div class="relative overflow-hidden rounded-md bg-white ring-1 ring-slate-200 shadow-xl p-7 sm:p-10">
+          <div class="absolute inset-x-0 top-0 h-1.5 bg-brand-600"></div>
+
+          <div class="mb-7">
+            <h3 class="font-headline font-semibold uppercase text-slate-800 text-3xl max-[379px]:text-[24px] max-[319px]:text-[21px]">Request an Estimate</h3>
+            <p class="text-sm text-slate-500 mt-1.5">Roofing &middot; Remodeling &middot; Repairs</p>
+          </div>
+
+          <form id="estimate-form" class="space-y-4" action="#" method="post">
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div>
+                <label for="est-name" class="block text-xs font-bold uppercase tracking-wide text-slate-700 mb-1.5">Full Name *</label>
+                <input id="est-name" name="name" type="text" required autocomplete="name" placeholder="John Doe" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-md text-sm placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:border-brand-600 transition">
+              </div>
+              <div>
+                <label for="est-phone" class="block text-xs font-bold uppercase tracking-wide text-slate-700 mb-1.5">Phone Number *</label>
+                <input id="est-phone" name="phone" type="tel" required autocomplete="tel" placeholder="(555) 000-0000" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-md text-sm placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:border-brand-600 transition">
+              </div>
+            </div>
+
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div>
+                <label for="est-email" class="block text-xs font-bold uppercase tracking-wide text-slate-700 mb-1.5">Email Address *</label>
+                <input id="est-email" name="email" type="email" required autocomplete="email" placeholder="john@example.com" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-md text-sm placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:border-brand-600 transition">
+              </div>
+              <div>
+                <label for="est-service" class="block text-xs font-bold uppercase tracking-wide text-slate-700 mb-1.5">Service Needed *</label>
+                <select id="est-service" name="service" required class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-md text-sm text-slate-700 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:border-brand-600 transition">
+                  <option value="">Select a service</option>
+                  <option>Roofing</option>
+                  <option>Kitchen Remodels</option>
+                  <option>Tile &amp; Showers</option>
+                  <option>Flooring</option>
+                  <option>Painting &amp; Trim</option>
+                  <option>Windows, Doors &amp; Siding</option>
+                  <option>Something Else</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label for="est-address" class="block text-xs font-bold uppercase tracking-wide text-slate-700 mb-1.5">Property Address</label>
+              <input id="est-address" name="address" type="text" autocomplete="street-address" placeholder="123 Main St, City, ST" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-md text-sm placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:border-brand-600 transition">
+            </div>
+
+            <div>
+              <label for="est-details" class="block text-xs font-bold uppercase tracking-wide text-slate-700 mb-1.5">Project Details</label>
+              <textarea id="est-details" name="details" rows="3" placeholder="Tell us about your project..." class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-md text-sm placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:border-brand-600 transition"></textarea>
+            </div>
+
+            <button type="submit" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-headline font-medium uppercase tracking-wide text-lg py-3.5 rounded-md shadow-md transition-colors">
+              Send My Request
+            </button>
+            <p id="estimate-status" class="hidden rounded-md bg-brand-600/10 text-brand-700 text-sm font-semibold px-4 py-3" role="status">Thanks! Your request was received &mdash; we&rsquo;ll get back to you shortly. Prefer to talk? Call (302) 632-4282.</p>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER: standard roofing footer (top bar, 4 link columns, bottom bar). Only list services, areas and pages the client really has. -->
+  <footer class="relative bg-brand-950 text-white/60 text-sm">
+    <!-- Roof peak rising into the section above -->
+    <div class="roof-peak-up" aria-hidden="true"></div>
+
+    <!-- Top bar: brand, phone, CTA -->
+    <div class="border-b border-brand-900">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row items-center justify-between gap-5">
+        <a href="#top" class="flex items-center gap-3">
+          <!-- {{LOGO}}: the same PLACEHOLDER serif "A" mark as the header (maroon square, white ring). Replace with their real logo. -->
+          <img src="images/logo-mark.svg" alt="" class="ring-1 ring-white/25 rounded-md w-12 h-12 max-[379px]:w-10 max-[379px]:h-10 max-[299px]:w-8 max-[299px]:h-8 shrink-0 object-contain">
+          <span class="leading-none">
+            <span class="block font-display font-bold text-[20px] max-[379px]:text-[16px] max-[299px]:text-[12px] text-white whitespace-nowrap">Anthony&rsquo;s Remodeling</span>
+            <span class="block text-[9px] tracking-[0.18em] uppercase text-white/50 mt-1 whitespace-nowrap">Contractor LLC &middot; Dover, DE</span>
+          </span>
+        </a>
+        <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-3">
+          <a href="tel:3026324282" class="font-extrabold text-xl text-white hover:text-brand-500 transition-colors">(302) 632-4282</a>
+          <a href="#contact" class="bg-brand-600 hover:bg-brand-700 text-white font-bold px-6 py-3 rounded-md transition-colors text-xs uppercase tracking-wider shadow-md">Get an Estimate</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Link columns -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 grid grid-cols-2 md:grid-cols-4 gap-10" data-stagger>
+      <div class="reveal-fade">
+        <h4 class="font-headline font-medium text-white uppercase mb-4 text-base tracking-wider">Services</h4>
+        <ul class="space-y-2.5">
+          <!-- one <li> per service shown -->
+          <li><a href="#services" class="hover:text-white transition-colors">Roofing</a></li>
+          <li><a href="#services" class="hover:text-white transition-colors">Kitchen Remodels</a></li>
+          <li><a href="#services" class="hover:text-white transition-colors">Tile &amp; Showers</a></li>
+          <li><a href="#services" class="hover:text-white transition-colors">Flooring</a></li>
+          <li><a href="#services" class="hover:text-white transition-colors">Painting &amp; Trim</a></li>
+          <li><a href="#services" class="hover:text-white transition-colors">Windows, Doors &amp; Siding</a></li>
+        </ul>
+      </div>
+      <div class="reveal-fade">
+        <h4 class="font-headline font-medium text-white uppercase mb-4 text-base tracking-wider">Service Area</h4>
+        <ul class="space-y-2.5">
+          <!-- one <li> per area: Dover is the only town on their Google listing and Facebook page. ASK which towns they cover. -->
+          <li><a href="#areas" class="hover:text-white transition-colors">Dover, DE</a></li>
+        </ul>
+      </div>
+      <div class="reveal-fade">
+        <h4 class="font-headline font-medium text-white uppercase mb-4 text-base tracking-wider">Company</h4>
+        <ul class="space-y-2.5">
+          <!-- mirror the site's real sections only -->
+          <li><a href="#about" class="hover:text-white transition-colors">About Us</a></li>
+          <li><a href="#projects" class="hover:text-white transition-colors">Projects</a></li>
+          <li><a href="#reviews" class="hover:text-white transition-colors">Reviews</a></li>
+          <li><a href="#areas" class="hover:text-white transition-colors">Service Area</a></li>
+          <li><a href="#contact" class="hover:text-white transition-colors">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="reveal-fade">
+        <h4 class="font-headline font-medium text-white uppercase mb-4 text-base tracking-wider">Contact</h4>
+        <p class="leading-relaxed mb-3">Dover, DE 19904</p>
+        <a href="tel:3026324282" class="block hover:text-white transition-colors">(302) 632-4282</a>
+        <a href="https://www.facebook.com/AnthonysRemodelingContractor/" target="_blank" rel="noopener" class="block mt-1 hover:text-white transition-colors">Facebook</a>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=Anthony%27s+Remodeling+19+Bellrive+Ct+Dover+DE+19904" target="_blank" rel="noopener" class="block mt-1 hover:text-white transition-colors">Google Maps</a>
+      </div>
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="border-t border-brand-900">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white/45 text-center sm:text-left">
+        <span>&copy; 2026 Anthony&rsquo;s Remodeling Contractor LLC. All rights reserved.</span>
+        <span>All Phases of Contracting &middot; Dover, Delaware</span>
+      </div>
+    </div>
+  </footer>
+
+
+  <style>
+    /* ===== Motion & interaction layer (client-specific; layout, spacing and type untouched) ===== */
+    /* Anchor links glide, and stop below the 80px sticky header instead of under it */
+    html { scroll-behavior: smooth; scroll-padding-top: 88px; }
+    :focus-visible { outline: 2px solid #7a1412; outline-offset: 3px; }
+
+    /* Scroll reveal: content eases up/in once as it enters the viewport (hidden only while JS runs) */
+    .js .reveal { opacity: 0; transform: translateY(26px); transition: opacity .7s cubic-bezier(.16,.8,.3,1), transform .7s cubic-bezier(.16,.8,.3,1); transition-delay: var(--reveal-delay, 0ms); }
+    /* Opacity-only for the services circle/tiles: the curved-cutout script measures live positions */
+    .js .reveal-fade { opacity: 0; transition: opacity .7s ease-out; transition-delay: var(--reveal-delay, 0ms); }
+    .js .reveal.is-visible, .js .reveal-fade.is-visible { opacity: 1; transform: none; }
+
+    /* Hero: photo settles from a slight zoom, copy lines rise in one after another */
+    .hero-img { animation: hero-zoom 1.8s cubic-bezier(.2,.7,.2,1) both; }
+    .hero-in > * { animation: rise-in .8s cubic-bezier(.16,.8,.3,1) both; }
+    .hero-in > :nth-child(2) { animation-delay: .12s; }
+    .hero-in > :nth-child(3) { animation-delay: .24s; }
+    @keyframes hero-zoom { from { transform: scale(1.07); } to { transform: scale(1); } }
+    @keyframes rise-in { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+
+    /* Header deepens its shadow once the page scrolls */
+    #site-header { transition: box-shadow .3s ease; }
+    #site-header.is-scrolled { box-shadow: 0 8px 24px -12px rgba(21,6,5,.35); }
+
+    /* Desktop nav: underline slides in under the hovered link */
+    header nav > a, header nav > .group > button { position: relative; }
+    header nav > a::after, header nav > .group > button::after { content: ""; position: absolute; left: 0; right: 0; bottom: 16px; height: 2px; background: #7a1412; transform: scaleX(0); transform-origin: left; transition: transform .25s ease; }
+    header nav > a:hover::after, header nav > .group:hover > button::after, header nav > .group:focus-within > button::after { transform: scaleX(1); }
+    /* Dropdowns drop in slightly instead of just appearing */
+    header nav .group > div { transform: translateY(6px); transition: opacity .2s ease, transform .2s ease, visibility .2s; }
+    header nav .group:hover > div, header nav .group:focus-within > div { transform: none; }
+
+    /* Mobile drawer: slides open/closed instead of snapping */
+    @media (max-width: 1023.98px) {
+      #mobile-menu { display: grid; grid-template-rows: 0fr; opacity: 0; visibility: hidden; border-top-width: 0; transition: grid-template-rows .32s ease, opacity .25s ease, visibility .32s; }
+      #mobile-menu.is-open { grid-template-rows: 1fr; opacity: 1; visibility: visible; border-top-width: 1px; }
+      /* the inner list's own py-3 padding would otherwise leave a 24px strip when "closed" */
+      .mobile-menu-inner { min-height: 0; overflow: hidden; padding-top: 0; padding-bottom: 0; transition: padding .32s ease; }
+      #mobile-menu.is-open .mobile-menu-inner { max-height: calc(100vh - 92px); max-height: calc(100dvh - 92px); overflow-y: auto; overscroll-behavior: contain; padding-top: .75rem; padding-bottom: .75rem; }
+    }
+    .menu-btn .bar { transform-box: fill-box; transform-origin: center; transition: transform .3s ease, opacity .2s ease; }
+    .menu-btn[aria-expanded="true"] .bar-1 { transform: translateY(5px) rotate(45deg); }
+    .menu-btn[aria-expanded="true"] .bar-2 { opacity: 0; }
+    .menu-btn[aria-expanded="true"] .bar-3 { transform: translateY(-5px) rotate(-45deg); }
+
+    /* Buttons: every solid brand button gets a small lift + press */
+    a.bg-brand-600, button.bg-brand-600 { transition: background-color .2s ease, transform .2s ease, box-shadow .2s ease; }
+    a.bg-brand-600:active, button.bg-brand-600:active { transform: translateY(0) scale(.98); }
+    .btn-arrow svg, a[href^="tel:"] > svg:last-child, a.bg-brand-600 > svg:last-child { transition: transform .2s ease; }
+
+    /* Review arrows: dim at the start/end of the row */
+    #reviews-prev:disabled, #reviews-next:disabled { opacity: .4; pointer-events: none; }
+    /* Client tweak (from HV Roofing): only 1 card, so hide the arrows when neither can scroll */
+    div:has(> #reviews-prev:disabled + #reviews-next:disabled) { display: none !important; }
+
+    /* Form: success message fades in, button shows a sending state */
+    #estimate-status:not(.hidden) { animation: rise-in .45s ease both; }
+    #estimate-form button[type="submit"][aria-busy="true"] { opacity: .75; cursor: progress; }
+
+    /* Footer links nudge right; a little invisible padding makes them easier to tap without moving anything */
+    footer ul a { display: inline-block; padding: 3px 0; margin: -3px 0; transition: color .2s ease, transform .2s ease; }
+    footer .md\:grid-cols-4 > div:last-child > a { padding: 3px 0; margin: -3px 0; }
+    /* Contact cards: phone and email links get a taller tap area without moving anything */
+    .info-card a[href^="tel:"], .info-card a[href^="mailto:"] { display: inline-block; padding: 8px 0; margin: -8px 0; }
+    /* ...but the email keeps the template's truncate on narrow phones (inline-block needs a max-width for the ellipsis to apply) */
+    .info-card a[href^="mailto:"] { max-width: 100%; vertical-align: top; }
+    /* Client tweak: the Facebook card (no email published) gets the same tap area and truncate as the email link it replaces */
+    .info-card a.info-fb { display: inline-block; padding: 8px 0; margin: -8px 0; max-width: 100%; vertical-align: top; }
+    /* Reviews: the "Leave a Google Review" link gets a taller tap area without moving anything */
+    #reviews a[href^="https:"], #reviews a[href^="tel:"] { display: inline-block; padding: 9px 0; margin: -9px 0; }
+    /* Header phone (768-1279px, where "Call us today" is hidden): taller invisible tap zone for any pointer, nothing moves */
+    header a[href^="tel:"].md\:block { padding: 10px 0; margin: -10px 0; }
+    /* About: the phone link next to the button gets the same taller tap area */
+    #about a[href^="tel:"] { padding: 10px 0; margin: -10px 0; }
+    /* Map dots: bigger invisible hit area for fingers (the visible dot stays 14px). The zone is sized by script (--hit) to half the gap to the nearest dot, so close towns never steal each other's taps (kept from the Wellson build) */
+    .area-dot::before { content: ""; position: absolute; inset: calc(var(--hit, 12px) * -1); border-radius: 9999px; }
+    /* Phones and every touch screen (landscape phones and iPads are 640px+): 16px form text stops iOS Safari zooming the page when a field is tapped */
+    @media (max-width: 639.98px), (pointer: coarse) { #estimate-form input, #estimate-form select, #estimate-form textarea { font-size: 16px; } }
+    /* Touch screens: footer links and phone numbers get ~30px hit areas (rows sit 30px apart, so the areas meet without overlapping); header phone gets a taller tap zone */
+    @media (pointer: coarse) {
+      footer ul a, footer .md\:grid-cols-4 > div:last-child > a { padding: 5px 0; margin: -5px 0; }
+      footer a[href^="tel:"].text-xl { display: inline-block; padding: 8px 0; margin: -8px 0; }
+      header a[href^="tel:"].md\:block { padding: 10px 0; margin: -10px 0; }
+    }
+    /* Landscape phones (short screens, 640px+ wide): a little more room under the hero copy so the slide dots never touch the paragraph */
+    @media (min-width: 640px) and (max-height: 500px) { .cut-hero > div.max-w-7xl { padding-bottom: 7.5rem; } }
+    /* Same for short tablet-landscape screens below 1024px (720x540 left only ~12px between the dots and the copy) */
+    @media (min-width: 640px) and (max-width: 1023.98px) and (max-height: 640px) { .cut-hero > div.max-w-7xl { padding-bottom: 7.5rem; } }
+    /* Phones: the map is small and the dots sit close together, so the dots shrink a little to stay apart (their tap zones are sized by the script below) */
+    @media (max-width: 639.98px) { a.area-dot { width: 10px; height: 10px; margin: -5px 0 0 -5px; box-shadow: 0 0 0 3px rgba(232,100,90,.28); } }
+    /* Under 360px the dots shrink once more (kept from the Wellson build, harmless with a single dot) */
+    @media (max-width: 359.98px) { a.area-dot { width: 8px; height: 8px; margin: -4px 0 0 -4px; box-shadow: 0 0 0 2px rgba(232,100,90,.28); } }
+
+    /* Hover-only effects: skipped on touch screens so nothing "sticks" after a tap */
+    @media (hover: hover) {
+      a.bg-brand-600:hover, button.bg-brand-600:hover { transform: translateY(-2px); box-shadow: 0 10px 22px -10px rgba(21,6,5,.45); }
+      .btn-arrow:hover svg, a[href^="tel:"]:hover > svg:last-child, a.bg-brand-600:hover > svg:last-child { transform: translateX(3px); }
+      .stat-tile { transition: transform .25s ease, background-color .25s ease, box-shadow .25s ease; }
+      .stat-tile:hover { transform: translateY(-3px); background: #fff; box-shadow: 0 12px 24px -14px rgba(21,6,5,.35); }
+      .stat-tile svg { transition: transform .3s ease; }
+      .stat-tile:hover svg { transform: scale(1.15); }
+      .review-card { transition: transform .25s ease, box-shadow .25s ease; }
+      .review-card:hover { transform: translateY(-4px); box-shadow: 0 18px 32px -16px rgba(21,6,5,.35); }
+      .info-card { transition: box-shadow .2s ease, background-color .2s ease; }
+      .info-card:hover { background: #fff; box-shadow: 0 0 0 1px #7a1412, 0 10px 22px -14px rgba(21,6,5,.4); }
+      .info-card > span { transition: background-color .2s ease, color .2s ease; }
+      .info-card:hover > span { background: #7a1412; color: #fff; }
+      .photo-hover > img { transition: transform .6s cubic-bezier(.2,.7,.2,1); }
+      .photo-hover:hover > img { transform: scale(1.02); }
+      footer ul a:hover { transform: translateX(3px); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .js .reveal, .js .reveal-fade { opacity: 1; transform: none; transition: none; }
+      .hero-img, .hero-in > *, #estimate-status:not(.hidden) { animation: none; }
+      *, *::before, *::after { transition-duration: .01ms !important; }
+    }
+
+    /* Footer roof peak: the dark footer rises into the section above */
+    .roof-peak-up { position: absolute; left: 50%; bottom: 100%; width: 14rem; height: 2.25rem; transform: translateX(-50%); background: #150605; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+    @media (max-width: 640px) { .roof-peak-up { width: 9rem; height: 1.5rem; } }
+    /* Service-area map dots */
+    .area-dot { position: absolute; width: 14px; height: 14px; margin: -7px 0 0 -7px; border-radius: 9999px; background: #e8645a; box-shadow: 0 0 0 4px rgba(232,100,90,.28); }
+    .area-dot::after { content: ""; position: absolute; inset: -4px; border-radius: 9999px; border: 2px solid #e8645a; opacity: 0; animation: area-pulse 2.6s ease-out infinite; }
+    .area-dot:hover, .area-dot:focus-visible { background: #f9cdc9; outline: none; z-index: 2; }
+    .area-tip { position: absolute; left: 50%; bottom: calc(100% + 10px); transform: translateX(-50%); background: #fff; color: #2a0c0b; font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 6px; white-space: nowrap; box-shadow: 0 6px 16px rgba(0,0,0,.25); opacity: 0; pointer-events: none; transition: opacity .15s; }
+    .area-dot:hover .area-tip, .area-dot:focus-visible .area-tip { opacity: 1; }
+    @keyframes area-pulse { 0% { transform: scale(.6); opacity: .8; } 100% { transform: scale(2.2); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .area-dot::after { animation: none; } }
+    /* Reviews track: line up with the page container on the left, run off the right edge, hide the scrollbar */
+    .reviews-track { padding-left: max(1rem, calc((100% - 72rem) / 2 + 2rem)); padding-right: 1rem; scroll-padding-left: max(1rem, calc((100% - 72rem) / 2 + 2rem)); scrollbar-width: none; }
+    .reviews-track::-webkit-scrollbar { display: none; }
+    /* Services tiles 2 and 3: curved cutout that follows the round collage (--cx/--cy/--cr are set by script) */
+    @media (min-width: 1024px) {
+      .cut-svc {
+        -webkit-mask-image: radial-gradient(circle at var(--cx, 100%) var(--cy, 0), transparent var(--cr, 0px), #000 calc(var(--cr, 0px) + 0.6px));
+        mask-image: radial-gradient(circle at var(--cx, 100%) var(--cy, 0), transparent var(--cr, 0px), #000 calc(var(--cr, 0px) + 0.6px));
+      }
+    }
+    /* Roof-pitch cuts: diagonal corners on photos + hero, and a peak notch between sections */
+    .cut-tl { clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%, 0 22%); }
+    .cut-tr { clip-path: polygon(0 0, 86% 0, 100% 22%, 100% 100%, 0 100%); }
+    .cut-hero { clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3rem), calc(100% - 7rem) 100%, 0 100%); }
+    .roof-peak { position: absolute; left: 50%; bottom: 0; width: 14rem; height: 2.25rem; transform: translateX(-50%); background: #fff; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+    @media (max-width: 640px) { .cut-hero { clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2rem), calc(100% - 4rem) 100%, 0 100%); } .roof-peak { width: 9rem; height: 1.5rem; } }
+    .marquee-track { animation: marquee-rtl 30s linear infinite; }
+    .marquee-track:hover { animation-play-state: paused; }
+    @keyframes marquee-rtl { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+    .marquee-edge {
+      position: absolute; top: 0; bottom: 0; width: 7rem; pointer-events: none; z-index: 1;
+      -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+    }
+    /* Text stand-ins; replace each <li> with an <img> of the brand's logo (grayscale, ~h-10) */
+    .brand-logo { font-family: 'Noto Serif', Georgia, serif; font-weight: 700; font-size: 1.75rem; color: #94a3b8; white-space: nowrap; }
+    @media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
+  </style>
+
+  <script>
+    // Services circle: the 4 photo segments crossfade through this pool (list them in segment order).
+    // Add or remove any number of the client's photos (5 or more, or the circle stays still) — the circle never depends on how many services there are.
+    const CIRCLE_PHOTOS = [
+      // All REAL job photos from their Facebook page (May-Jun 2019) except tile-window.jpg (STOCK, Unsplash). Swap that one
+      // for their own window / door / siding photo.
+      'images/job-metal-roof.jpg',
+      'images/job-kitchen.jpg',
+      'images/job-tile-shower.jpg',
+      'images/job-sunroom-floor.jpg',
+      'images/job-basement-paint.jpg',
+      'images/about-sunroom.jpg',
+      'images/tile-window.jpg'
+    ];
+    (function () {
+      const segs = [...document.querySelectorAll('.circle-seg')];
+      const n = CIRCLE_PHOTOS.length;
+      if (segs.length === 0 || n <= segs.length) return;
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      const layers = segs.map(s => [...s.querySelectorAll('img')]);
+      const front = segs.map(() => 0);   // which of the 2 stacked <img> is currently visible
+      let t = 0;
+      setInterval(() => {
+        t++;
+        segs.forEach((_, k) => setTimeout(() => {
+          const [a, b] = [layers[k][front[k]], layers[k][1 - front[k]]];
+          const next = new Image();
+          next.onload = () => {
+            b.src = next.src;
+            b.classList.remove('opacity-0'); b.style.transition = 'opacity 1s'; b.style.opacity = 1;
+            a.style.transition = 'opacity 1s'; a.style.opacity = 0;
+            front[k] = 1 - front[k];
+          };
+          next.src = CIRCLE_PHOTOS[(t + k) % n];
+        }, k * 500));
+      }, 4500);
+    })();
+
+    // Services tiles 2 and 3: cut a curve out of each tile's edge that follows the round collage,
+    // so the shape stays matched whatever the paragraph length or screen width.
+    (function () {
+      const tiles = [...document.querySelectorAll('.cut-svc')];
+      const circle = document.getElementById('svc-circle');
+      const GAP = 16; // space between the circle and the tiles
+      if (!tiles.length || !circle) return;
+      function fit() {
+        if (!window.matchMedia('(min-width: 1024px)').matches) {
+          tiles.forEach(tile => ['--cx', '--cy', '--cr'].forEach(v => tile.style.removeProperty(v)));
+          return;
+        }
+        const c = circle.getBoundingClientRect();
+        tiles.forEach(tile => {
+          const t = tile.getBoundingClientRect();
+          tile.style.setProperty('--cx', (c.left + c.width / 2 - t.left) + 'px');
+          tile.style.setProperty('--cy', (c.top + c.height / 2 - t.top) + 'px');
+          tile.style.setProperty('--cr', (c.width / 2 + GAP) + 'px');
+        });
+      }
+      fit();
+      window.addEventListener('resize', fit);
+      window.addEventListener('load', fit);
+      if (window.ResizeObserver) {
+        // tiles shrink/grow when the paragraph changes length, so watch them as well as the circle and section
+        const ro = new ResizeObserver(fit);
+        [...tiles, circle, document.getElementById('services')].forEach(el => ro.observe(el));
+      }
+    })();
+
+    // Reviews: arrow buttons scroll the row by one card
+    (function () {
+      const track = document.getElementById('reviews-track');
+      if (!track) return;
+      const step = dir => {
+        const card = track.querySelector('article');
+        const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+        track.scrollBy({ left: dir * (card.getBoundingClientRect().width + gap), behavior: 'smooth' });
+      };
+      const prev = document.getElementById('reviews-prev');
+      const next = document.getElementById('reviews-next');
+      prev.addEventListener('click', () => step(-1));
+      next.addEventListener('click', () => step(1));
+      // Dim an arrow when there's nothing further to scroll in that direction
+      const sync = () => {
+        const max = track.scrollWidth - track.clientWidth - 2;
+        prev.disabled = track.scrollLeft <= 2;
+        next.disabled = track.scrollLeft >= max;
+        // with only a couple of reviews every card fits on wider screens; hide the arrows rather than show two dead buttons
+        prev.parentElement.style.visibility = max <= 0 ? 'hidden' : '';
+      };
+      track.addEventListener('scroll', sync, { passive: true });
+      window.addEventListener('resize', sync);
+      sync();
+    })();
+
+    // Service tiles: jump to the estimate form with that service already selected
+    (function () {
+      const select = document.getElementById('est-service');
+      document.querySelectorAll('.svc-tile').forEach(tile => {
+        tile.addEventListener('click', () => {
+          const name = tile.querySelector('h3').textContent.trim();
+          const opt = [...select.options].find(o => o.textContent.trim() === name);
+          if (opt) select.value = opt.value || opt.textContent;
+        });
+      });
+    })();
+
+    // Estimate form: DEMO ONLY. Shows the success message; replace with a real submit (form action / fetch to the client's handler).
+    (function () {
+      const form = document.getElementById('estimate-form');
+      const status = document.getElementById('estimate-status');
+      if (!form) return;
+      const submit = form.querySelector('button[type="submit"]');
+      const label = submit.textContent;
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        submit.setAttribute('aria-busy', 'true');
+        submit.disabled = true;
+        submit.textContent = 'Sending…';
+        setTimeout(() => {
+          submit.removeAttribute('aria-busy');
+          submit.disabled = false;
+          submit.textContent = label;
+          status.classList.remove('hidden');
+          form.reset();
+        }, 700);
+      });
+    })();
+
+    // Reveal-on-scroll: fades/slides .reveal / .reveal-fade elements in once as they enter the viewport.
+    // Children of a [data-stagger] container come in one after another.
+    (function () {
+      document.querySelectorAll('[data-stagger]').forEach(group => {
+        [...group.children].filter(c => c.matches('.reveal, .reveal-fade'))
+          .forEach((c, i) => c.style.setProperty('--reveal-delay', (i * 90) + 'ms'));
+      });
+      // Service tiles stagger in the order they appear
+      document.querySelectorAll('.svc-tile').forEach((t, i) => t.style.setProperty('--reveal-delay', (i * 80) + 'ms'));
+      const els = [...document.querySelectorAll('.reveal, .reveal-fade')];
+      if (!('IntersectionObserver' in window)) { els.forEach(el => el.classList.add('is-visible')); return; }
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('is-visible');
+          io.unobserve(entry.target);
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+      els.forEach(el => io.observe(el));
+    })();
+
+    // Map dots: each dot's invisible tap zone (--hit) reaches at most halfway to its nearest neighbour (max 12px),
+    // so close towns on a small map never steal each other's taps. Recomputed when the map changes size.
+    (function () {
+      const dots = [...document.querySelectorAll('.area-dot')];
+      if (dots.length < 2) return;
+      const fit = () => {
+        const r = dots.map(d => d.getBoundingClientRect());
+        dots.forEach((d, i) => {
+          let near = Infinity;
+          r.forEach((o, j) => { if (j !== i) near = Math.min(near, Math.hypot(o.x - r[i].x, o.y - r[i].y)); });
+          const scale = r[i].width / (d.offsetWidth || r[i].width); // the map is scaled 1.12x on desktop
+          const hit = Math.max(0, Math.min(12, Math.floor((near / 2 - r[i].width / 2) / scale)));
+          d.style.setProperty('--hit', hit + 'px');
+        });
+      };
+      fit();
+      if (window.ResizeObserver) new ResizeObserver(fit).observe(dots[0].parentElement);
+      else window.addEventListener('resize', fit);
+    })();
+
+    // Header: stronger shadow once the page has scrolled
+    (function () {
+      const header = document.getElementById('site-header');
+      const onScroll = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    })();
+
+    // Mobile menu: animated open/close; closes on link tap, Escape, outside tap, or when resizing up to desktop
+    (function () {
+      const btn = document.getElementById('menu-btn');
+      const menu = document.getElementById('mobile-menu');
+      const setOpen = open => {
+        menu.classList.toggle('is-open', open);
+        btn.setAttribute('aria-expanded', open);
+        btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      };
+      btn.addEventListener('click', () => setOpen(btn.getAttribute('aria-expanded') !== 'true'));
+      // Collapsing the menu mid-scroll cancels the browser's own anchor jump, so close first, then scroll ourselves
+      menu.querySelectorAll('a').forEach(a => a.addEventListener('click', e => {
+        const hash = a.getAttribute('href');
+        const target = hash && hash.startsWith('#') && hash.length > 1 && document.querySelector(hash);
+        setOpen(false);
+        if (!target) return;
+        e.preventDefault();
+        // wait for the drawer to finish collapsing, otherwise the page shifts up under the scroll and overshoots
+        setTimeout(() => {
+          target.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+          history.pushState(null, '', hash);
+        }, 340);
+      }));
+      document.addEventListener('keydown', e => { if (e.key === 'Escape' && menu.classList.contains('is-open')) { setOpen(false); btn.focus(); } });
+      document.addEventListener('click', e => { if (menu.classList.contains('is-open') && !e.target.closest('#site-header')) setOpen(false); });
+      window.matchMedia('(min-width: 1024px)').addEventListener('change', e => { if (e.matches) setOpen(false); });
+    })();
+  </script>
+</body>
+</html>
